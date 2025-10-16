@@ -1,10 +1,19 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const navLinks = document.querySelectorAll('nav a');
-    navLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
-            const targetId = link.getAttribute('href').substring(1);
-            document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
-        });
+const themeToggle = document.getElementById('theme-toggle');
+const sections = document.querySelectorAll('section');
+
+themeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+    themeToggle.classList.toggle('dark');
+});
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('fade-in');
+        }
     });
+});
+
+sections.forEach(section => {
+    observer.observe(section);
 });
