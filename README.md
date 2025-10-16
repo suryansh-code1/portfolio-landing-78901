@@ -1,12 +1,19 @@
 # Portfolio Landing Page Update
 
-This repository contains an updated version of a portfolio landing page that now supports a dark theme toggle, features smooth section fade-in animations, and has a modernized design while maintaining responsiveness across devices.
+This repository contains an updated version of the portfolio landing page, featuring a dark theme toggle and subtle animations for enhanced user experience, while ensuring responsiveness across devices.
 
 ## Features
 
 - **Dark Theme Toggle**: Users can switch between light and dark themes seamlessly.
-- **Smooth Section Fade-In Animations**: Enhances user experience with visually appealing transitions as sections come into view.
-- **Modernized Design**: Updated UI elements for a contemporary look while ensuring the layout is responsive.
+- **Subtle Animations**: Sections of the portfolio include smooth transitions and animations for a more engaging experience.
+- **Responsive Design**: The layout adapts to various screen sizes, ensuring optimal viewing on desktops, tablets, and mobile devices.
+
+## Files Created
+
+- `index.html`: The main HTML structure of the portfolio.
+- `styles.css`: Updated CSS file with styles for light and dark themes, including animations.
+- `script.js`: JavaScript file to handle theme toggling and animations.
+- `media/`: Directory containing images and assets used in the portfolio.
 
 ## Usage Instructions
 
@@ -16,24 +23,18 @@ This repository contains an updated version of a portfolio landing page that now
    cd portfolio-landing-page
    ```
 
-2. **Open the HTML File**:
-   Open `index.html` in your web browser to view the updated portfolio landing page.
+2. **Open the Portfolio**:
+   Open `index.html` in your web browser to view the portfolio.
 
 3. **Toggle Dark Theme**:
-   Click the theme toggle button located in the header to switch between light and dark modes.
+   Click the theme toggle button located at the top right corner of the page to switch between light and dark themes.
 
-4. **Scroll to Experience Animations**:
-   Scroll through the sections to see the smooth fade-in animations as they appear.
-
-## Files Created
-
-- `index.html`: The main HTML file containing the structure of the landing page.
-- `styles.css`: Updated CSS file with styles for the dark theme, modern design elements, and responsive layout.
-- `script.js`: JavaScript file to handle the theme toggle functionality and fade-in animations.
+4. **Explore Animations**:
+   Scroll through the sections to experience the subtle animations as they come into view.
 
 ## Contributing
 
-Feel free to fork the repository and submit pull requests for any improvements or additional features.
+Feel free to submit issues or pull requests for any enhancements or bug fixes.
 
 ## License
 
